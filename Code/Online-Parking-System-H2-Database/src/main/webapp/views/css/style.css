@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+body {
+    margin: 0px;
+    background-image: url("/views/images/park.jpg");
+
+    /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url("images/HomeHouse.jpg"); */
+    background-position: 10% 50%;
+    background-size: cover;
+}
+.container {
+    margin: 50px auto;
+    width: 55%;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 1px rgb(168, 168, 168);
+    border-radius: 10px;
+}
+.nav {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.nav a:hover {
+    background-color: rgb(201, 201, 201);
+    color: black;
+}
+.heading {
+    padding: 10px 0 20px 0;
+    margin: auto;
+    width: fit-content;
+}
+
+input {
+    width: 100%;
+    border: solid 1px;
+    padding: 5px 8px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+input[type="text"] {
+    outline-color: red;
+}
+input[type="number"] {
+    outline-color: red;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input[type="submit"] {
+    background-color: rgb(68, 180, 255);
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: rgb(48, 168, 248);
+}
+.add-form th {
+    text-align: left;
+}
+.add-form {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 20px;
+}
